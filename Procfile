@@ -1,0 +1,1 @@
+web: cd generator && gunicorn generator.wsgi
