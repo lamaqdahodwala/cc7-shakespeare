@@ -1,5 +1,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<div class="container">
+    <div class="hero">
+        <div class="hero-body">
+            <p class="title">Insult generator</p>
+            <p class="subtitle">Generate your insults today!</p>
+            <a href="{% url 'insult' %}" class="button is-success is-outlined">Get an insult</a>
+        </div>
+    </div>
+</div>
 {% endblock %}
