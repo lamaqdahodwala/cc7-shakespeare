@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index')
+   #  path('insult', views.generate_insult, name='insult'))
 ]
