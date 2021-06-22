@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
+<br><br>
 <div class="container">
     <div class="box is-fluid">
         <div class="has-text-centered">
@@ -8,7 +9,11 @@
             <div class="content">
                 <strong>{{insult}}</strong>
             </div>
-            <a href="{% url 'insult' %}" class="button is-primary">Get another one</a>
+            <div class="buttons is-flex is-justify-content-center">
+                <a href="{% url 'insult' %}" class="button is-primary">Get another one</a>
+                <a href="{% url 'index' %}" class="button is-danger">Go back</a>
+            </div>
+
         </div>
     </div>
 </div>
